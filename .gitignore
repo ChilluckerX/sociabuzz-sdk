@@ -1,0 +1,28 @@
+# Environment / secrets — never commit real values
+.env
+.env.local
+
+# Session store (contains live donation tokens/cookies at runtime)
+*.db
+*.db-journal
+sociabuzz_sessions.db
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv/
+
+# Tooling caches
+.ruff_cache/
+.mypy_cache/
+.pytest_cache/
+
+# Editor
+.vscode/
+.idea/
